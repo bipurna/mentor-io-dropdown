@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="">
+        </div>
+       
+        <div class="nav-without-logo">
+          <div class="close">
+            <img src="./images/icon-close-menu.svg" alt="close menu">
+          </div>
+          <div class="left-nav">
+            <ul>
+
+              <li class="dropdown">
+                <a class="dropdown-btn">Features <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"
+                    class="arrow"></a>
+                <div class="dropdown-content">
+                  <a href="#" id="features"> <img src="./images/icon-todo.svg" alt="todo"> Todo List</a>
+                  <a href="#"><img src="./images/icon-calendar.svg" alt="calender"> Calendar</a>
+                  <a href="#"><img src="./images/icon-reminders.svg" alt="reminders"> Reminders</a>
+                  <a href="#"><img src="./images/icon-planning.svg" alt="planning"> Planning</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-btn">Company <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"
+                    class="arrow"></a>
+                <div class="dropdown-content">
+                  <a href="#"> History</a>
+                  <a href="#"> Our Team</a>
+                  <a href="#"> Blog</a>
+                </div>
+              </li>
+              <li><a>Careers </a></li>
+              <li><a>About </a></li>
+            </ul>
+
+          </div>
+          <div class="right-nav">
+            <a>Login</a>
+            <a>Register</a>
+          </div>
+        </div>
+        <div class="mobile-menu-open">
+          <img src="./images/icon-menu.svg" alt="menu">
+        </div>
+      </div>
+
+    </nav>
+  </header>
+  <main>
+    <div class="main-left-details">
+      <div class="bg-img-hero-mobile">
+        <img src="./images/image-hero-mobile.png" alt="image-hero-desktop">
+  
+      </div>
+      <h1>Make remote work</h1>
+
+      <p>Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.</p>
+
+      <a href="#">Learn more</a>
+      <div class="brands">
+        <img src="./images/client-databiz.svg" alt="client-databiz">
+        <img src="./images/client-audiophile.svg" alt="client-audiophile" />
+        <img src="./images/client-meet.svg" alt="client-meet" />
+        <img src="./images/client-maker.svg" alt="client-maker">
+      </div>
+    </div>
+    <div class="bg-img-hero-desktop">
+      <img src="./images/image-hero-desktop.png" alt="image-hero-desktop">
+
+    </div>
+
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.tarakumarsunuwar.com.np">Tara Kumar Sunuwar</a>.
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
