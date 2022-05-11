@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/bipurna/mentor-io-dropdown)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github](https://github.com/bipurna/mentor-io-dropdown)
+- Live Site URL: [dropdown-challange-live-server](https://bipurna.github.io/mentor-io-dropdown/)
 
 ### Built with
 
